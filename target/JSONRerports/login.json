@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-03T12:27:08.025Z",
+        "line": 4,
+        "name": "Check login is successfull with valid credentials",
+        "description": "",
+        "id": "this-feature-for-login-functionality;check-login-is-successfull-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1243000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 464000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 425000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 378000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "This feature for login functionality",
+    "description": "",
+    "id": "this-feature-for-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
